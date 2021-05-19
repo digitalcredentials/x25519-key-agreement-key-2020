@@ -10,9 +10,9 @@ import {
 } from '@digitalbazaar/x25519-key-agreement-key-2019';
 import {
   Ed25519VerificationKey2020
-} from '@digitalbazaar/ed25519-verification-key-2020';
+} from '@digitalcredentials/ed25519-verification-key-2020';
 import {X25519KeyAgreementKey2020} from '../lib/index';
-import {encode} from 'base58-universal';
+import {encode} from '@digitalcredentials/base58-universal';
 
 const mockKey = {
   publicKeyMultibase: 'z6LSeRSE5Em5oJpwdk3NBaLVERBS332ULC7EQq5EtMsmXhsM',
