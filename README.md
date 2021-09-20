@@ -1,8 +1,6 @@
-# X25519KeyAgreementKey2020 _(@digitalbazaar/x25519-key-agreement-key-2020)_
+# X25519KeyAgreementKey2020 _(@digitalcredentials/x25519-key-agreement-key-2020)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/x25519-key-agreement-key-2020/Node.js%20CI)](https://github.com/digitalbazaar/x25519-key-agreement-key-2020/actions?query=workflow%3A%22Node.js+CI%22)
-[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/x25519-key-agreement-key-2020)](https://codecov.io/gh/digitalbazaar/x25519-key-agreement-key-2020)
-[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/x25519-key-agreement-key-2020.svg)](https://npm.im/@digitalbazaar/x25519-key-agreement-key-2020)
+[![NPM Version](https://img.shields.io/npm/v/@digitalcredentials/x25519-key-agreement-key-2020.svg)](https://npm.im/@digitalcredentials/x25519-key-agreement-key-2020)
 
 > An X25519 (Curve25519) DH (Diffie-Hellman) key implementation to work with the X25519 2020 Crypto suite.
 
@@ -21,6 +19,9 @@
 TBD
 
 ## Background
+
+(Forked from [`digitalbazaar/x25519-key-agreement-key-2020` v2.0.0](https://github.com/digitalbazaar/x25519-key-agreement-key-2020)
+to provide TypeScript compatibility.)
 
 For use with [`crypto-ld`](https://github.com/digitalbazaar/crypto-ld) `>= 5.0`.
 
@@ -42,7 +43,7 @@ Requires Node.js 12+
 To install locally (for development):
 
 ```
-git clone https://github.com/digitalbazaar/x25519-key-agreement-key-2020.git
+git clone https://github.com/digitalcredentials/x25519-key-agreement-key-2020.git
 cd x25519-key-agreement-key-2020
 npm install
 ```
@@ -52,7 +53,7 @@ npm install
 Importing:
 
 ```
-const {X25519KeyAgreementKey2020} = require('@digitalbazaar/x25519-key-agreement-key-2020');
+const {X25519KeyAgreementKey2020} = require('@digitalcredentials/x25519-key-agreement-key-2020');
 
 // Or, if you're testing code in the interactive Node CLI, right in this repo:
 const {X25519KeyAgreementKey2020} = require('./');
@@ -124,11 +125,7 @@ PRs accepted.
 If editing the Readme, please conform to the
 [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
-## Commercial Support
-
-Commercial support for this library is available upon request from
-Digital Bazaar: support@digitalbazaar.com
-
 ## License
 
-[New BSD License (3-clause)](LICENSE) © Digital Bazaar
+* MIT License - DCC - TypeScript compatibility.
+* New BSD License (3-clause) © 2020-2021 Digital Bazaar - Initial implementation.
