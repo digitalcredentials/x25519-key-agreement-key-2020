@@ -71,7 +71,18 @@
     ]
   },
   "browser": {
-    "./lib/crypto.js": "./lib/crypto-browser.js"
+    "buffer": false,
+    "crypto": false,
+    "util": false,
+    "./lib/crypto.js": "./lib/crypto-browser.js",
+    "./dist/crypto.js": "./dist/crypto-browser.js"
+  },
+  "react-native": {
+    "buffer": false,
+    "crypto": false,
+    "util": false,
+    "./lib/crypto.js": "./lib/crypto-nacl.js",
+    "./dist/crypto.js": "./dist/crypto-nacl.js"
   },
   "engines": {
     "node": ">=12"
