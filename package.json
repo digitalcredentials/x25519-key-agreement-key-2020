@@ -29,7 +29,6 @@
     "@digitalcredentials/base58-universal": "^1.0.0",
     "@noble/ed25519": "^1.6.0",
     "crypto-ld": "^6.0.0",
-    "ed2curve": "^0.3.0",
     "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
