@@ -11,7 +11,7 @@ import {
 import {
   Ed25519VerificationKey2020
 } from '@digitalcredentials/ed25519-verification-key-2020';
-import {X25519KeyAgreementKey2020} from '../lib/index';
+import {X25519KeyAgreementKey2020} from '../src/index';
 import {encode} from '@digitalcredentials/base58-universal';
 
 const mockKey = {
